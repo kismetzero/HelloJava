@@ -6,7 +6,7 @@ public class User {
     private int id;
     private String name;
     private String sex;
-    private  String password;
+    private String password;
 
     public User() {
     }
