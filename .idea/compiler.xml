@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="C_HelloTomcat" />
+        <module name="B_HelloMaven" />
+        <module name="D_HelloServlet" />
+        <module name="E_HelloJDBC" />
+        <module name="F_HelloMyBatis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="A_HelloHCJ" target="8" />
+      <module name="A_HelloHTML" target="8" />
+      <module name="B_HelloCSS" target="8" />
+      <module name="B_HelloJavaEE" target="8" />
+      <module name="B_HelloMaven" target="8" />
+      <module name="C_HelloTomcat" target="8" />
+      <module name="D_HelloServlet" target="8" />
+      <module name="E_HelloJDBC" target="8" />
+      <module name="F_HelloMyBatis" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
