@@ -14,6 +14,7 @@
         <module>D_HelloServlet</module>
         <module>E_HelloJDBC</module>
         <module>F_HelloMyBatis</module>
+        <module>G_HelloSpring</module>
     </modules>
 
     <properties>
@@ -80,6 +81,13 @@
         <groupId>org.mybatis</groupId>
         <artifactId>mybatis</artifactId>
         <version>3.5.10</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.3.20</version>
         </dependency>
     </dependencies>
 

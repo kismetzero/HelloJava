@@ -37,6 +37,6 @@
         </environment>
     </environments>
     <mappers>
-        <package name="com.kismet.mapper"/>
+        <package name="com.kismet.dao"/>
     </mappers>
 </configuration>
