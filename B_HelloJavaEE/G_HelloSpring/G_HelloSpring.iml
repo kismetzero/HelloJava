@@ -6,6 +6,8 @@
         <fileset id="fileset" name="AppContext" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/AppContext.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/AnnoContext.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/bean.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/anno.xml</file>
         </fileset>
       </configuration>
     </facet>
