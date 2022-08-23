@@ -1,4 +1,4 @@
-package com.kismet.mapper;
+package com.kismet.dao;
 
 import com.kismet.pojo.User;
 import com.kismet.utils.MyBatisUtils;

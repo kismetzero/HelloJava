@@ -11,6 +11,7 @@
         <module name="B_HelloMaven" />
         <module name="D_HelloServlet" />
         <module name="E_HelloJDBC" />
+        <module name="G_HelloSpring" />
         <module name="F_HelloMyBatis" />
       </profile>
     </annotationProcessing>
@@ -24,6 +25,7 @@
       <module name="D_HelloServlet" target="8" />
       <module name="E_HelloJDBC" target="8" />
       <module name="F_HelloMyBatis" target="8" />
+      <module name="G_HelloSpring" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
