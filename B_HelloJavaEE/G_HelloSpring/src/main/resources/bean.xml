@@ -16,8 +16,24 @@
     more bean definitions go here
     -->
 
+<!--xml配置文件管理Person对象测试-->
     <bean id="person" class="com.kismet.xbean.Person">
         <property name="name" value="张三"/>
+        <property name="age" value="18"/>
+    </bean>
+
+
+<!--xml配置文件autowire测试-->
+    <bean id="dog" class="com.kismet.xbean.auto.Dog">
+        <property name="name" value="狗狗1号"/>
+        <property name="age" value="1"/>
+    </bean>
+    <bean id="cat" class="com.kismet.xbean.auto.Cat">
+        <property name="name" value="猫猫1号"/>
+        <property name="age" value="2"/>
+    </bean>
+    <bean id="master" class="com.kismet.xbean.auto.Master" autowire="byType">
+        <property name="name" value="主人1号"/>
         <property name="age" value="18"/>
     </bean>
 
