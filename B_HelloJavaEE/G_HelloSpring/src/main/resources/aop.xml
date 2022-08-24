@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="userService" class="com.kismet.aop.UserServiceImpl"/>
+
+<!--原生api实现aop-->
+<!--    <bean id="apiBefore" class="com.kismet.aop.ApiBefore"/>-->
+<!--    <bean id="apiAfter" class="com.kismet.aop.ApiAfterReturn"/>-->
+<!--    <aop:config>-->
+<!--        <aop:pointcut id="apiPoint" expression="execution(* com.kismet.aop.UserServiceImpl.*(..))"/>-->
+<!--        <aop:advisor advice-ref="apiBefore" pointcut-ref="apiPoint"/>-->
+<!--        <aop:advisor advice-ref="apiAfter" pointcut-ref="apiPoint"/>-->
+<!--    </aop:config>-->
+
+<!--自定义类实现简易aop-->
+<!--    <bean id="diyAop" class="com.kismet.aop.DiyClassAop"/>-->
+<!--    <aop:config>-->
+<!--        <aop:aspect ref="diyAop">-->
+<!--            <aop:pointcut id="diyPoint" expression="execution(* com.kismet.aop.UserServiceImpl.*(..))"/>-->
+<!--            <aop:before method="diyBefore" pointcut-ref="diyPoint"/>-->
+<!--            <aop:after method="diyAfter" pointcut-ref="diyPoint"/>-->
+<!--        </aop:aspect>-->
+<!--    </aop:config>-->
+
+<!--注解实现简易aop-->
+    <bean id="annoAop" class="com.kismet.aop.AnnoDiyAop"/>
+    <aop:aspectj-autoproxy/>
+</beans>
