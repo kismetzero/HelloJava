@@ -9,7 +9,7 @@ import java.util.List;
 
 public class UserMapperTest {
     @Test
-    public void getAllUserListTest() {
+    public void test() {
         try (SqlSession sqlSession = MyBatisUtils.getSession()) {
             UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
             List<User> allUserList = userMapper.getAllUserList();
