@@ -9,10 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="C_HelloTomcat" />
         <module name="B_HelloMaven" />
-        <module name="D_HelloServlet" />
         <module name="E_HelloJDBC" />
         <module name="G_HelloSpring" />
         <module name="F_HelloMyBatis" />
+        <module name="D_HelloServlet" />
+        <module name="H_HelloSpringMyBatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +27,7 @@
       <module name="E_HelloJDBC" target="8" />
       <module name="F_HelloMyBatis" target="8" />
       <module name="G_HelloSpring" target="8" />
+      <module name="H_HelloSpringMyBatis" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

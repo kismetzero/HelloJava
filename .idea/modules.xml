@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/B_HelloJavaEE/E_HelloJDBC/E_HelloJDBC.iml" filepath="$PROJECT_DIR$/B_HelloJavaEE/E_HelloJDBC/E_HelloJDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/B_HelloJavaEE/F_HelloMyBatis/F_HelloMyBatis.iml" filepath="$PROJECT_DIR$/B_HelloJavaEE/F_HelloMyBatis/F_HelloMyBatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/B_HelloJavaEE/G_HelloSpring/G_HelloSpring.iml" filepath="$PROJECT_DIR$/B_HelloJavaEE/G_HelloSpring/G_HelloSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/B_HelloJavaEE/H_HelloSpringMyBatis/H_HelloSpringMyBatis.iml" filepath="$PROJECT_DIR$/B_HelloJavaEE/H_HelloSpringMyBatis/H_HelloSpringMyBatis.iml" />
     </modules>
   </component>
 </project>
