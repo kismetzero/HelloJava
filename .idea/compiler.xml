@@ -9,9 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="C_HelloTomcat" />
         <module name="B_HelloMaven" />
+        <module name="A_SpringServlet" />
         <module name="E_HelloJDBC" />
         <module name="G_HelloSpring" />
         <module name="F_HelloMyBatis" />
+        <module name="B_SpringMVC" />
         <module name="D_HelloServlet" />
         <module name="H_HelloSpringMyBatis" />
       </profile>
@@ -19,15 +21,18 @@
     <bytecodeTargetLevel>
       <module name="A_HelloHCJ" target="8" />
       <module name="A_HelloHTML" target="8" />
+      <module name="A_SpringServlet" target="8" />
       <module name="B_HelloCSS" target="8" />
       <module name="B_HelloJavaEE" target="8" />
       <module name="B_HelloMaven" target="8" />
+      <module name="B_SpringMVC" target="8" />
       <module name="C_HelloTomcat" target="8" />
       <module name="D_HelloServlet" target="8" />
       <module name="E_HelloJDBC" target="8" />
       <module name="F_HelloMyBatis" target="8" />
       <module name="G_HelloSpring" target="8" />
       <module name="H_HelloSpringMyBatis" target="8" />
+      <module name="I_HelloSpringMVC" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

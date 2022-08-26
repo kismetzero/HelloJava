@@ -10,6 +10,7 @@
       <set>
         <option value="$PROJECT_DIR$/B_HelloJavaEE/A_HelloHCJ/pom.xml" />
         <option value="$PROJECT_DIR$/B_HelloJavaEE/B_HelloCSS/pom.xml" />
+        <option value="$PROJECT_DIR$/B_HelloJavaEE/B_SpringMVC/pom.xml" />
       </set>
     </option>
   </component>
