@@ -26,12 +26,6 @@ public class Master {
         this.cat = cat;
     }
 
-    @Autowired
-    public Master(Dog dog, Cat cat) {
-        this.dog = dog;
-        this.cat = cat;
-    }
-
     public String getName() {
         return name;
     }
@@ -52,6 +46,7 @@ public class Master {
         return dog;
     }
 
+    @Autowired
     public void setDog(Dog dog) {
         this.dog = dog;
     }
@@ -60,6 +55,7 @@ public class Master {
         return cat;
     }
 
+    @Autowired
     public void setCat(Cat cat) {
         this.cat = cat;
     }
