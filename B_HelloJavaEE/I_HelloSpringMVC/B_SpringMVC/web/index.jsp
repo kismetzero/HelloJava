@@ -13,7 +13,7 @@
   <body>
   $END$
   <h1>
-    <a href="/login">登入</a>
+    <a href="${pageContext.request.contextPath}/login">登入</a>
   </h1>
   </body>
 </html>
